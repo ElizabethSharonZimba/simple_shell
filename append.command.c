@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <string.h>
 /**
  * append_command - Concatenates an input with paths in the global vari PATH
  * @dir_path: directory string to be appended with the command
