@@ -1,6 +1,5 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdlib.h>
+
 
 /**
  * cmp_str - Compares two strings

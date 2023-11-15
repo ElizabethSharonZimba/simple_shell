@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef MAIN_H
+#define MAIN_H
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +13,7 @@
 #include <time.h>
 
 extern char **environ;
-
+char *append_command(char *dir_path, char *command);
 int cmp_str(char *str1, char *str2);
 int verify_path(char **arguments);
 char *_strdup(char *str);
